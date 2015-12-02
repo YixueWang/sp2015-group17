@@ -1,0 +1,98 @@
+@font-face
+{
+font-family: lato;
+src: url(../fonts/lato.ttf);
+}
+
+.node circle {
+  fill: #fff;
+  stroke: #7D0C0C;
+  stroke-width: 1.5px;
+}
+
+.node {
+  font: 5px sans-serif;
+}
+
+.link {
+  fill: none;
+  stroke: #ccc;
+  stroke-width: 1.5px;
+}
+
+#mainviz{
+
+}
+
+  .featureUl {
+    padding: 0;
+    margin: 0;
+  }
+
+  .featureLi {
+    list-style-type: none;
+    cursor: pointer;
+    padding: 5px;
+  }
+
+  .featureLi:hover {
+    background: #e7e7e7;
+  }
+
+  .featureLiSel, .featureLiSel:hover {
+    background: rgb(55,126,184);
+    font-weight: bold;
+    color: white;
+  }
+
+  #ex1Slider .slider-selection {
+  background: #BABABA;
+}
+
+path {
+  stroke: #fff;
+  fill-rule: evenodd;
+}
+
+text {
+  font-family: Lato;
+  font-size: 10px;
+}
+
+.d3-tip {
+  line-height: 1;
+  font-weight: bold;
+  padding: 12px;
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  border-radius: 2px;
+}
+
+/* Creates a small triangle extender for the tooltip */
+.d3-tip:after {
+  box-sizing: border-box;
+  display: inline;
+  font-size: 10px;
+  width: 100%;
+  line-height: 1;
+  color: rgba(0, 0, 0, 0.8);
+  content: "\25BC";
+  position: absolute;
+  text-align: center;
+}
+
+/* Style northward tooltips differently */
+.d3-tip.n:after {
+  margin: -1px 0 0 0;
+  top: 100%;
+  left: 0;
+}
+
+.panel-default>.panel-heading{
+  background-color:#000000;
+  color:#fff;
+}
+
+.panel-title{
+  font-weight:normal;
+}
